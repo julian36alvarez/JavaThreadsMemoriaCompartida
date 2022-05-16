@@ -12,11 +12,8 @@ public class Reader extends Thread{
 
     public void run() {
         int i= 0;
-        while (i<10){
-            System.out.println("Reader " + myId +" wants to read");
+            //System.out.println("Reader " + myId +" wants to read");
             resource.toRead();
-            System.out.println("Reader " + myId+ "has finished");
-            i++;
-        }
+           // System.out.println("Reader " + myId+ " has finished");
     }
 }
