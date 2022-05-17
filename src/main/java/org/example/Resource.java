@@ -54,7 +54,7 @@ public class Resource {
                     for ( int i=0; i < n ;i++){
                         for (int j=0;  j<p;j++){
                             if(arreglo[i][j]>0){
-                                System.out.print(arreglo[i][j]);
+                                System.out.print("["+arreglo[i][j]+"]");
                             }
                             else{
                                 System.out.print("-+");
