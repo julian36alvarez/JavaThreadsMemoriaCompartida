@@ -88,7 +88,7 @@ public class Resource {
                 arreglo[nValue][pValue] = idPlayer;
                 continuePlaying=false;
             }else{
-                System.out.println("Movimiento invalido");
+                System.out.println("El jugador "+idPlayer+" ya conecto el punto");
             }
         }else{
             System.out.println("Movimiento invalido");

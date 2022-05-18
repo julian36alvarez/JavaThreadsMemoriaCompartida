@@ -21,5 +21,6 @@ public class Main {
             new Player(resource, (i % numPlayers)).start();
         }
 
+
     }
 }
